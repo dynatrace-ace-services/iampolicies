@@ -10,10 +10,10 @@ accounts:
     type: environment
   oAuth:
     clientId:
-      name: DT_OAUTH_CLIENT_ID_MONACO
+      name: DT_OAUTH_CLIENT_ID
       type: environment
     clientSecret:
-      name: DT_OAUTH_CLIENT_SECRET_MONACO
+      name: DT_OAUTH_CLIENT_SECRET
       type: environment
     tokenEndpoint: 
       value: "https://sso.dynatrace.com/sso/oauth2/token"
@@ -31,10 +31,10 @@ environmentGroups:
         name: DT_API_TOKEN
       oAuth:
         clientId:
-            name: DT_OAUTH_CLIENT_ID_MONACO
+            name: DT_OAUTH_CLIENT_ID
             type: environment
         clientSecret:
-            name: DT_OAUTH_CLIENT_SECRET_MONACO
+            name: DT_OAUTH_CLIENT_SECRET
             type: environment
         tokenEndpoint: 
             value: "https://sso.dynatrace.com/sso/oauth2/token"
