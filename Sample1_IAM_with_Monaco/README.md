@@ -38,6 +38,8 @@
       export DT_OAUTH_CLIENT_ID=dtxx.ABCDEF
       export DT_OAUTH_CLIENT_SECRET=dtxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
       export DT_OAUTH_SSO_ENDPOINT="https://sso.dynatrace.com/sso/oauth2/token"
+      export DT_GRAIL_TENANT_URL="https://<tenantid>.apps.dynatrace.com"
+      export DT_API_TOKEN="dtyy.yyyyyyyyyyyyyyyyyyyyyyyyyyy"
 
 ## Download policies, usergroups and users
 - with manifest
@@ -46,7 +48,7 @@
 
 - without manifest
   
-	  monaco account download --uuid %DT_ACCOUNT_ID% --oauth-client-id=DT_OAUTH_CLIENT_ID_MONACO --oauth-client-secret=DT_OAUTH_CLIENT_SECRET_MONACO
+	  monaco account download --uuid %DT_ACCOUNT_ID% --oauth-client-id=DT_OAUTH_CLIENT_ID --oauth-client-secret=DT_OAUTH_CLIENT_SECRET
 
 ## Deploy account
 - monaco cmd
